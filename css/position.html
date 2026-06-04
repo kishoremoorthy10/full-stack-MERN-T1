@@ -8,11 +8,29 @@
         body{
             height:100vh;
         }
-
+        .navbar{
+            position:sticky;
+            top: 0;
+        }
+        .relative{
+            border:2px solid green;
+            position:relative;
+            height:50vh;
+            margin-top:20px;
+        }
+        .absolute{
+            border:2px solid red;
+            position:absolute;
+            margin: 10px;
+            margin-left: 50px;
+        }
+        .fixed{
+            position:fixed;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class="navbar">
         <nav>
             <ul>
                 <li>Home</li>
